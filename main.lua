@@ -4,7 +4,7 @@
 --========================================================--
 
 local BASE =
-	"https://raw.githubusercontent.com/thegamerkid2440-cell/didod/main/"
+	"https://raw.githubusercontent.com/thegamerkid2440-cell/eoobox/main/"
 
 local function LoadModule(fileName)
 	local url = BASE .. fileName
@@ -24,16 +24,16 @@ local function LoadModule(fileName)
 	return result
 end
 
-local Effects = LoadModule("Effects.lua")
+local Effects = LoadModule("effects.lua")
 
-local GUI = LoadModule("GUI.lua")
+local GUI = LoadModule("gui.lua")
 
-local Flight = LoadModule("Flight.lua")
+local Flight = LoadModule("flight.lua")
 
-local Void = LoadModule("Void.lua")
+local Void = LoadModule("void.lua")
 
-local IronMan = LoadModule("IronMan.lua")
+local IronMan = LoadModule("ironman.lua")
 
-local Rick = LoadModule("Rick.lua")
+local Rick = LoadModule("rick.lua")
 
 print("[DIDOD] Power Forms loaded.")
